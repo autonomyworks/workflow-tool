@@ -1,0 +1,48 @@
+<style type='text/css'>/* Custom CSS */
+/*
+Welcome to the Custom CSS editor!
+
+Please add all your custom CSS here and avoid modifying the core theme files, since that'll make upgrading the theme problematic. Your custom CSS will be loaded after the theme's stylesheets, which means that your rules will take precedence. Just add your CSS here for what you want to change, you don't need to copy all the theme's style.css content.
+*/
+* {
+  box-sizing: border-box;
+}
+#left_col {
+   float:left;
+   width:50%;
+   padding:2%;
+   }
+#right_col {
+   float:right;
+   width:50%;
+   padding:2%;
+  }
+#clear_col {
+    clear: both;
+    }
+.centered {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: normal;
+ }
+ @media screen and (max-width: 600px) {
+  #right_col {
+    width: 100%;
+  }
+  #left_col {
+      width: 100%;
+  }
+}
+</style>
+<style>@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);body  { font-family: 'Open Sans', sans-serif; } </style>
+<style>@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);h1  { font-family: 'Open Sans', sans-serif; } </style>
+<style>@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);.main-navigation  { font-family: 'Open Sans', sans-serif; } </style>
